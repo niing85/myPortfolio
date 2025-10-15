@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.4)), url(images/BGhomepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center center; */
+}
+
+.container{
+    margin: 0 auto;
+}
+
+nav{
+    background-color: rgb(65, 64, 63, 85%);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent
+}
+
+.logo a{
+    font-size: large;
+    color: gold;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin: 0 1.5rem;
+}
+.menu li a {
+    color: rgb(235, 229, 229);
+    text-decoration: none;
+}
+
+.sectionOne{
+    position: fixed;
+    background: linear-gradient(rgb(159, 157, 157, 0.5));
+    margin-top: 45px; 
+    margin-bottom: 50px;
+    width: 45%;
+    height: 100%;
+
+}
+.sectionOne-info{
+    text-align: justify;
+    padding: 17rem 10rem 20rem 11rem;
+} 
+.sectionOne-info-one{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.sectionOne-info-two{
+    font-size: 18px;
+}
+
+.footer-bottom{
+    bottom: 0%;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(65, 64, 63);
+    color:whitesmoke;
+    text-align: center;
+    opacity: 60%;
+    position: fixed;
+}
+
+
+
+/* about */
+.card-con{
+    max-width: 900px;
+    text-align: center;
+    margin: 145px 850px 0 40px;
+    position: relative;
+    
+}
+.card{
+    background-color: rgba(186, 174, 130, 0.6);
+    text-align: center;
+    display: flex;
+    padding: 25px 20px 25px 20px;
+    border-radius: 5%;
+}
+.card img{
+    margin-right: 30px;
+    text-align: center;
+    width: 50%;
+    border-radius: 50%;
+    position:relative;
+    border: 10px solid rgba(205, 199, 165, 0.6);
+}
+
+.first-para{
+    color: black;
+    font-size: 20px;
+    padding: 60px 5px 8px 0 ;
+}
+.second-para{
+    color: rgb(90, 63, 63);
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.third-para{
+    color: rgb(54, 44, 44);
+    font-size: 18px;
+}
+
+
+
+/* contact */
+.content{
+    position: relative;
+}
+.subtopic{
+    font-size: 24px;
+    color: rgb(214, 202, 202);
+    /* font-weight: bold; */
+    background-color: rgb(175, 167, 139, 0.6);
+    margin: 150px 800px 0 45px;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+    border-radius: 40px;
+}
+.spacebtw{
+    margin-top: 100px;
+}
+.subcontent{
+    font-size: 24px;
+    background-color: rgb(175, 167, 139, 0.6);
+    margin: 20px 870px 0 130px;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+    color: rgb(95, 18, 18);
+    text-decoration: none;
+
+    
+}
+.subcontent a{
+    text-decoration:none;
+    color: brown;
+}
